@@ -7,8 +7,14 @@
   "engines": {
     "node": ">= 10"
   },
+  "dependencies": {
+    "@appsignal/bunyan-stream": "file:packages/bunyan-stream",
+    "@appsignal/express": "file:packages/express",
+    "@appsignal/nodejs": "file:packages/nodejs"
+  },
   "devDependencies": {
     "@appsignal/types": "^1.0.0",
+    "@types/bunyan": "^1.8.6",
     "@types/express": "^4.17.2",
     "@types/jest": "^25.1.0",
     "@types/node": "^13.5.0",

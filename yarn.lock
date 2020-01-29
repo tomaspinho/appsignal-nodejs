@@ -2,6 +2,23 @@
 # yarn lockfile v1
 
 
+"@appsignal/bunyan-stream@file:packages/bunyan-stream":
+  version "0.0.0"
+  dependencies:
+    tslib "^1.10.0"
+
+"@appsignal/express@file:packages/express":
+  version "0.1.0-alpha.2"
+  dependencies:
+    tslib "^1.10.0"
+
+"@appsignal/nodejs@file:packages/nodejs":
+  version "0.1.0-alpha.6"
+  dependencies:
+    node-addon-api "^2.0.0"
+    node-gyp "^6.1.0"
+    tslib "^1.10.0"
+
 "@appsignal/types@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@appsignal/types/-/types-1.0.0.tgz#1e28406d414d4d1e875ea55087ab2b3c93750b5d"
@@ -1255,6 +1272,13 @@
   integrity sha512-RoX2EZjMiFMjZh9lmYrwgoP9RTpAjSHiJxdp4oidAQVO02T7HER3xj9UKue5534ULWeqVEkujhWcyvUce+d68w==
   dependencies:
     "@types/connect" "*"
+    "@types/node" "*"
+
+"@types/bunyan@^1.8.6":
+  version "1.8.6"
+  resolved "https://registry.yarnpkg.com/@types/bunyan/-/bunyan-1.8.6.tgz#6527641cca30bedec5feb9ab527b7803b8000582"
+  integrity sha512-YiozPOOsS6bIuz31ilYqR5SlLif4TBWsousN2aCWLi5233nZSX19tFbcQUPdR7xJ8ypPyxkCGNxg0CIV5n9qxQ==
+  dependencies:
     "@types/node" "*"
 
 "@types/color-name@^1.1.1":
@@ -6971,7 +6995,7 @@ util.promisify@^1.0.0:
     has-symbols "^1.0.1"
     object.getownpropertydescriptors "^2.1.0"
 
-uuid@^3.0.1, uuid@^3.3.2, uuid@^3.4.0:
+uuid@^3.0.1, uuid@^3.3.2:
   version "3.4.0"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.4.0.tgz#b23e4358afa8a202fe7a100af1f5f883f02007ee"
   integrity sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==
